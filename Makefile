@@ -4,7 +4,7 @@ sync:
 
 .PHONY: locked
 locked:
-	@uv lock --locked
+	@uv lock --check
 
 .PHONY: lint
 lint: sync

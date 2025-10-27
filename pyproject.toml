@@ -3,7 +3,7 @@ name = "my-app"
 version = "0.1.0"
 description = "An example of uv workspace"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 dependencies = [
     "my-lib",
 ]

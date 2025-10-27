@@ -72,5 +72,5 @@ uv publish # will publish all packages found in dist/
 
 ```shell
 uv lock          # update lockfile (e.g. after manually changing pyproject.toml)
-uv lock --locked # check if it's still consistent with pyproject.toml
+uv lock --check # check if it's still consistent with pyproject.toml
 ```
