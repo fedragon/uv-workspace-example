@@ -41,6 +41,8 @@ uv run ruff format
 
 ### Running
 
+Assuming that you have a Python file with an `if __name__ == "__main__":` block called `run.py`, you can run it with
+
 ```shell
 uv run run.py
 ```
